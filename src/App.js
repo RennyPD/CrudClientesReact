@@ -5,34 +5,6 @@ import React from 'react';
 import {useEffect, useState} from 'react';
 import axios from 'axios';
 
-/*function App() {
-
-  const [user, setUser] = useState([]);
-
-  const fecthData = async () => {
-    return await axios.get("https://localhost:44347/api/Person")
-    .then((response) => setUser(response.data));
-  }
-
-  useEffect(() => {
-    fecthData();
-  }, [])
-
-  return (
-    <div className="App">
-      <h1>Usuarios</h1>
-      <ul>
-        {user && user.length > 0 && user.map((userObj, index) => (
-          <li key={userObj.id}>{userObj.name}</li>
-        ))}
-      </ul> 
-    </div>
-  );
-}
-export default App;*/
-
-
-
 const baseURL = "http://miapiproyectoweb.somee.com/api/Person";
 
 export default function App() {
